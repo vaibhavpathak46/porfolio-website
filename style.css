@@ -1,0 +1,108 @@
+body{
+    max-resolution: 100%;
+    margin: 0%;
+}
+.top{
+    background-color:rgb(182, 216, 222);
+}
+.cloud1{
+    margin-left: 65%;
+
+    
+    
+}
+.head1{
+    margin-left: 40%;
+    font-weight: 900;
+    font-family: 'caveat',cursive;
+    font-size: 100px;
+    
+    
+}
+.head2{
+    margin-left: 48%;
+    font-size: 35px;
+    
+    
+}
+.mountain{
+    margin-left: 35%;
+}
+.cloud2{
+    margin-left: 25%;
+}
+.prof{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+   
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile{
+    margin-left: 44%;
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%
+    
+   
+}
+.hello{
+    text-align: center;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #04AA6D;} /* Blue */
+.js {width: 60%; background-color: #04AA6D;} /* Red */
+.Ccc {width: 80%; background-color:#04AA6D;} /* Dark Grey */
+.C{width:90%;background: #04AA6D;}
+.python{width:60%;background: #04AA6D;}
+.ecpertise{
+    margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+
+.skill{
+    margin-left: 20%;
+}
+.mail {
+    background: #11cdd4;
+    
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 45%;
+    
+    
+}
+a {
+    
+    margin: 10px 20px;
+    
+}
