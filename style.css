@@ -1,3 +1,4 @@
+
 body{
     max-resolution: 100%;
     margin: 0%;
@@ -7,26 +8,23 @@ body{
 }
 .cloud1{
     margin-left: 65%;
-
-    
-    
 }
 .head1{
-    margin-left: 40%;
+  text-align:center ;
     font-weight: 900;
     font-family: 'caveat',cursive;
-    font-size: 100px;
-    
-    
+    font-size: 5rem;
 }
 .head2{
-    margin-left: 48%;
-    font-size: 35px;
-    
-    
+    text-align: center;
+    font-size: 2rem;
 }
-.mountain{
-    margin-left: 35%;
+.mountain{  
+    margin-left: 30%;
+     
+    width: 50%;
+  
+    padding: 10px;
 }
 .cloud2{
     margin-left: 25%;
@@ -46,8 +44,6 @@ body{
     width: 200px;
     background-color: #bbb;
     border-radius: 50%
-    
-   
 }
 .hello{
     text-align: center;
@@ -98,11 +94,70 @@ body{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-left: 45%;
-    
-    
 }
 a {
     
     margin: 10px 20px;
     
+}
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+@media screen and (max-width: 480px) {
+  .head1 {
+    font-size: 3rem; 
+  }
+  .head2 {
+    font-size: 1.5rem; 
+  }
+  .mountain {
+    margin-left: 10%; 
+    width: 80%; 
+  }
+  .profile {
+    margin-left: 40%; 
+  }
+  .skill {
+    margin-left: 10%; 
+  }
+  .mail {
+    margin-left: 35%; 
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .head1 {
+    font-size: 4rem; 
+  }
+  .head2 {
+    font-size: 2rem; 
+  }
+  .mountain {
+    margin-left: 20%; 
+    width: 60%; 
+  }
+  .profile {
+    margin-left: 42%; 
+  }
+  .skill {
+    margin-left: 15%; 
+  }
+  .mail {
+    margin-left: 40%; 
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+ 
+}
+
+
+.head1 {
+  font-size: 10vw; 
+}
+.head2 {
+  font-size: 5vw; 
 }
