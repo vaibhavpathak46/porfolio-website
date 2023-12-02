@@ -116,13 +116,15 @@ a {
     width: 80%; 
   }
   .profile {
-    margin-left: 10%; 
+    display:flex;
+      justify-content:center;
   }
   .skill {
     margin-left: 10%; 
   }
   .mail {
-    margin-left: 35%; 
+     display:flex;
+      justify-content:center;
   }
 }
 
